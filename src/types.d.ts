@@ -1,13 +1,12 @@
-interface FoodItem {
-    id: number
-    name: string;
-    price: number;
-    image: string;
-    deleteImg: string;
+interface MenuItem {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
 }
 
-interface Iorder {
-    name: string;
-    count: number;
-    id: number
+interface OrderRecord {
+  name: string;
+  count: number;
+  id: number;
 }
