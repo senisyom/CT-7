@@ -1,0 +1,47 @@
+.RightBarContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.FoodCard {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.FoodCard:hover {
+    transform: scale(1.05);
+}
+
+.FoodButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.FoodImg {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.foodName {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 15px 0 15px;
+}
+
+.FoodPrice {
+    font-size: 12px;
+    color: #6c757d;
+}
